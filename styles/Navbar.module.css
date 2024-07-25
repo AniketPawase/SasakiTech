@@ -1,25 +1,17 @@
 .navbar {
-    width: 100%;
-    background-color: #333; /* Adjust as needed */
-    display: flex;
-    justify-content: center; /* Center the Navbar */
-    padding: 10px 0; /* Adjust padding as needed */
-  }
-  
-  .navList {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Space between links */
-  }
-  
-  
-  .navLink {
-    color: white; /* Text color */
-    text-decoration: none;
-    font-size: 1.2rem; /* Increase font size */
-  }
-  
-  .navLink:hover {
-    text-decoration: underline; /* Add underline on hover */
-  }
-  
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
