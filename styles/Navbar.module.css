@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    background-color: #333; /* Adjust as needed */
+    display: flex;
+    justify-content: center; /* Center the Navbar */
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+  }
+  
+  
+  .navLink {
+    color: white; /* Text color */
+    text-decoration: none;
+    font-size: 1.2rem; /* Increase font size */
+  }
+  
+  .navLink:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
