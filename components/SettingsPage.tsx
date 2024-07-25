@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import styles from '../../styles/SettingsPage.module.css';
+import styles from '../styles/SettingsPage.module.css';
 
 // Define TypeScript interface for SETTINGS
 export interface Settings {
