@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
-import ClientNavbar from '../components/Navbar';
-
+import ClientNavbar from '../components/ClientNavbar'; 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({
