@@ -1,4 +1,3 @@
-// components/TableWidget.tsx
 'use client';
 
 import React, { useState } from 'react';
@@ -7,7 +6,6 @@ import { tableData } from '../app/data/data';
 const TableWidget = () => {
   const [data, setData] = useState(tableData);
 
-  // Example interaction: Add new item
   const addItem = () => {
     const newItem = {
       id: data.length + 1,

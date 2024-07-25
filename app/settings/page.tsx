@@ -1,11 +1,9 @@
-// app/settings/page.tsx
-
-"use client"; // This directive makes this file a Client Component
+"use client"; 
 
 import React, { useState } from 'react';
 import styles from '../../styles/SettingsPage.module.css'; // Import the CSS module
 
-// Define a TypeScript interface for the settings
+// Defining typescript interface for SETTINGS
 interface Settings {
   dateRange: { startDate: string; endDate: string };
   filters: { name: string; valueRange: [number, number] };
@@ -14,7 +12,6 @@ interface Settings {
   colorScheme: 'light' | 'dark';
 }
 
-// Type for the onSaveSettings callback function
 interface SettingsPageProps {
   onSaveSettings: (settings: Settings) => void;
 }
